@@ -8,6 +8,7 @@
     <modules>
         <module>user-service</module>
         <module>order-service</module>
+        <module>eureka-server</module>
     </modules>
     <name>cloud-demo01</name>
     <description>Demo project for Spring Boot</description>
