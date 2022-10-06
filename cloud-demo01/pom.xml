@@ -51,6 +51,14 @@
 
     <dependencyManagement>
         <dependencies>
+<!--            nacos的管理依赖-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.5.RELEASE</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
 
             <!-- springCloud -->
             <dependency>
