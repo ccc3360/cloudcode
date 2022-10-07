@@ -12,6 +12,10 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848
+      discovery:
+        cluster-name: A #集群名称
+#        ephemeral: false #非临时实例
+#        ephemeral: truye #临时实例
 
 mybatis:
   type-aliases-package: cn.itcast.order.pojo
@@ -27,9 +31,10 @@ logging:
 #  client:
 #    service-url:  #eureka地址信息
 #      defaultZone: http://127.0.0.1:8079/eureka
-#userservice:
-#  ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则
+userservice:
+  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则  Eureka
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule #负载均衡规则   Nacos
 #ribbon:
 #  eager-load:
 #    enabled: true #开启饥饿加载
