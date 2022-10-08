@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-demo01/cloud-demo01.iml" filepath="$PROJECT_DIR$/cloud-demo01/cloud-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cloudcode.iml" filepath="$PROJECT_DIR$/.idea/cloudcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo01/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/cloud-demo01/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-demo01/feign-api/feign-api.iml" filepath="$PROJECT_DIR$/cloud-demo01/feign-api/feign-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo01/order-service/order-service.iml" filepath="$PROJECT_DIR$/cloud-demo01/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo01/user-service/user-service.iml" filepath="$PROJECT_DIR$/cloud-demo01/user-service/user-service.iml" />
     </modules>

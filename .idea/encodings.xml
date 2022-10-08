@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloud-demo01/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-demo01/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-demo01/feign-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-demo01/feign-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-demo01/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-demo01/order-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-demo01/user-service/src/main/java" charset="UTF-8" />
